@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@page {
+  size: A4 portrait;
+  margin: 8mm;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #bon-commande-print,
+  #bon-commande-print * {
+    visibility: visible;
+  }
+  #bon-commande-print {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 287mm;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: hidden;
+    page-break-inside: avoid;
+  }
+  #bon-commande-print .bon-no-pdf {
+    display: none !important;
+  }
+}
