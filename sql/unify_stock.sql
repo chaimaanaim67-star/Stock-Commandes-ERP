@@ -1,0 +1,1 @@
+-- OBSOLÈTE : source unique = table produit (voir drop_stock_tables.sql)

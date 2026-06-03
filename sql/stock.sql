@@ -1,0 +1,2 @@
+-- OBSOLÈTE : la source unique est la table `produit`.
+-- Voir drop_stock_tables.sql pour supprimer stock / stock_ismawood.
